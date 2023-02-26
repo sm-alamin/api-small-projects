@@ -14,7 +14,7 @@ const showWord = words => {
     words.forEach(word => {
     const div = document.createElement('div');
     div.innerHTML =`
-    <div class="card w-full glass">
+    <div class="card w-full glass px-5">
     <div class="card-body">
       <h3 class="text-green">${word ? word.word : ''}</h3>
       <div class="flex">
