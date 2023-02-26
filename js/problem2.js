@@ -41,16 +41,16 @@ const data = [
 
   div.innerHTML =`
   <div class="card w-full bg-base-100 shadow-xl border">
-    <figure class="px-10 pt-10">
-        <img src="${car.imageURL}" alt="Shoes" class="rounded-xl" />
-    </figure>
-    <div class="card-body">
-        <h2 class="card-title">Car Name: ${car.name}</h2>
-        <p>Car Details: ${car.description}</p>
-        <div class="card-actions">
-        <button class="btn btn-info">Car Price: ${car.price}</button>
-        </div>
-    </div>
+      <figure class="px-10 pt-10">
+          <img src="${car.imageURL}" alt="Shoes" class="rounded-xl" />
+      </figure>
+      <div class="card-body">
+          <h2 class="card-title">Car Name: ${car.name}</h2>
+          <p>Car Details: ${car.description}</p>
+          <div class="card-actions">
+          <button class="btn btn-info">Car Price: ${car.price}</button>
+          </div>
+      </div>
     </div>
   `
   cardContainer.appendChild(div);
